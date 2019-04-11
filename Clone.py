@@ -1,5 +1,35 @@
 # encoding=utf8
 # Author: MaulanaID
+
+###banner###
+
+banner_menu = """
+                                     `oddhhhhyysss
+                                    .ydhhhddyyso+/
+                                   -hdyssyh-      
+//::--..``             ./`  `     -ddhssyy`       
+yyhhhhhhdhyyo/.       `s/`-/-    `ydhsss/`        
+yyyyyysymddddmms.     -o./+-..   .ddsso.          
++++/-`  .:+shhhdd+`  ..` .`...+o::dhs/`           
+         -. `-+yydh://.`.:...-:/shdh+`   -`       
+        `+y` `yo`::.-:/:::::/:-..:ydo-``/y-       
+         :do `ds::-`.:--``..`..``.-ods:+hy.  `:+` 
+         `oh:`o:-:..-.-....```...---+dohho `/yy/  
+          `oy.-.`-` ....`. ```....---/ddh:-yhy/`  
+        `-+y-``  .  ``````` `  `..-.--hhs+hdo.    
+        +hy:` `` -```-`````...``. .`..syyyh:      
+       `sy:.  .`.-.``:..`-.....`..` `.shhhhh.     
+       `s::.  .`:`-/`-.`..:--::--.  .-hhhhhy-     
+       `:++.  `..-o+yo:````--shhy/``.ymdhhhy/`    
+       --oo-  ``-:.:/+:`````./++++`--ymmddds/.    
+        `+o/``` .o:--.```````.--....-:shhho::.    
+         `-/`. ``+/.```o++/-``../:...-:+o+:`.     
+          .:-/```-----.-:::---/so....-s+:.`       
+       `-//+:::`.`:::::-:://////.`..:///-`        
+`````...-++//::--:-:::::::///+:`--::----:+.       
+.-.````.:::+++++/++:/:----:-...://///:---+`       
+.``````:-....:+yyys+++/:-----://++++++++oo-       
+
 import requests, json, os, re, sys, mechanize, urllib
 reload(sys)
 sys.setdefaultencoding('utf8')
