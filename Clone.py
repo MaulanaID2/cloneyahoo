@@ -1,5 +1,5 @@
 # encoding=utf8
-# Author: Brozz21
+# Author: MaulanaID
 import requests, json, os, re, sys, mechanize, urllib
 reload(sys)
 sys.setdefaultencoding('utf8')
@@ -29,8 +29,8 @@ def defense():
     print "\033[36m| " + 11*" " + "\033[35mEmail" + 14*" " + "\033[36m|" + 9*" " + "\033[33mVuln" + 8*" " + "\033[36m|"
     print 55*"-"
     for i in hasil['data']:
-        wrna = "\033[36m"
-        wrne = "\033[39m"
+        wrna = "\033[35m"
+        wrne = "\033[31mm"
         h +=1
         o.append(h)
         x = requests.get("https://graph.facebook.com/"+i['id']+"?access_token="+token)
@@ -48,12 +48,12 @@ def defense():
                 try:
                     cd = Zen.search(j).group()
                 except:
-                    vuln = 6*" " + "\033[31mNot Vuln"
-                    #Email Len
+                    vuln = 6*" " + "\033[31m ga ada"
+                    
                     lean = 30 - (len(z['email']))
                     eml = lean * " "
-                    #Name Len
-                    lone = 24 - (len(vuln))
+                    
+                    lone = 24 - (len(ada))
                     namel = lone * " "
                     print "\033[36m| " + wrna + z['email'] + eml + "\033[36m| " + wrne + vuln + namel + " \033[36m|"
                     continue
@@ -64,8 +64,8 @@ def defense():
                 #Email Len
                 lean = 30 - (len(z['email']))
                 eml = lean * " "
-                #Name Len
-                #Author: Zen-Oh-Sama
+                
+                #Author : MaulanaID
                 lone = 24 - (len(vuln))
                 namel = lone * " "
                 print "\033[36m| " + wrna + z['email'] + eml + "\033[36m| " + wrne + vuln + namel + " \033[36m|"
@@ -79,8 +79,8 @@ def defense():
                     vuln = 5*" " + "\033[31mNot Vuln"
                 lean = 30 - (len(z['email']))
                 eml = lean * " "
-                #Name Len
-                #Author: Brozz21
+               
+                #Author :MaulanaID
                 lone = 24 - (len(vuln))
                 namel = lone * " "
                 print "\033[36m| " + wrna + z['email'] + eml + "\033[36m|  " + wrne + vuln + namel + "\033[36m|"
