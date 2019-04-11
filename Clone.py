@@ -91,9 +91,24 @@ def defense():
             pass
 defense()
 
-##Banner##
+subprocess.call("clear",shell=True)
 
+#color
+green = "\033[1;32m"
+normal = "\033[0m"
+red = "\033[1;31m"
+cyan = "\033[1;36m"
+#symbols
+good = "\033[1;32m[\033[1;36m+\033[1;32m]\033[0m"
+bad = "\033[1;32m[\033[1;31m!\033[1;32m]\033[0m"
+#word
+success = "\033[1;32mSuccessful\033[0m"
+failed = "\033[1;31mFailed\033[0m"
+
+###banner###
 banner_menu = """
+
+
                                      `oddhhhhyysss
                                     .ydhhhddyyso+/
                                    -hdyssyh-      
@@ -119,3 +134,4 @@ yyyyyysymddddmms.     -o./+-..   .ddsso.
 `````...-++//::--:-:::::::///+:`--::----:+.       
 .-.````.:::+++++/++:/:----:-...://///:---+`       
 .``````:-....:+yyys+++/:-----://++++++++oo-       
+
